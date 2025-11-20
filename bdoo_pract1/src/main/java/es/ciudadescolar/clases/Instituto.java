@@ -5,10 +5,10 @@ import java.util.List;
 public class Instituto {
 
     private String nombre;
-    private String identificador;
+    private Integer identificador;
     private List<Alumno> listaAlumnos;
     
-    public Instituto(String nombre, String identificador, List<Alumno> listaAlumnos) {
+    public Instituto(String nombre, Integer identificador, List<Alumno> listaAlumnos) {
         this.nombre = nombre;
         this.identificador = identificador;
         this.listaAlumnos = listaAlumnos;
@@ -20,10 +20,10 @@ public class Instituto {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    public String getIdentificador() {
+    public Integer getIdentificador() {
         return identificador;
     }
-    public void setIdentificador(String identificador) {
+    public void setIdentificador(Integer identificador) {
         this.identificador = identificador;
     }
     public List<Alumno> getListaAlumnos() {
